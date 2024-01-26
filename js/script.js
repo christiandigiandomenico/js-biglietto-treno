@@ -13,7 +13,7 @@ const prezzoSenior = prezzoViaggio / 100 * 40
 document.getElementById("userDistance").innerHTML = distanza
 document.getElementById("userAge").innerHTML = eta
 
-if (!isNaN(eta) && !isNaN(distanza) && (eta > 0 && eta < 100) && Number.isInteger(eta) && Number.isInteger(distanza) && (distanza > 0)) {
+if (!isNaN(eta) && !isNaN(distanza) && (eta > 0 && eta < 100) && Number.isInteger(eta) && (distanza > 0)) {
 
     if (eta < 18) {
 
